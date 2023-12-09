@@ -16,7 +16,8 @@ Nous utiliserons le meme type de systeme pour controller l'instrument :
 Nous commencerons par les messages midi classique tel que :
 - noteOn : 0x90
 - noteOff : 0x80
-puis nous ajouterons petit a petit la gestion d'autres messages adapté au violon :
+
+Puis nous ajouterons petit a petit la gestion d'autres messages adapté au violon :
 - Pitch Bend :0xE0
 - Channel Pressure (Aftertouch) :0xA0
 - Polyphonic Key Pressure :0xD0
